@@ -1,0 +1,140 @@
+.gradient
+{
+  background-image: linear-gradient(rgba(3,142,217,255) 40%, rgba(77,253,252,255));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar
+{
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 2vw;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  word-spacing: 100px;
+}
+
+.navbar a
+{
+  text-decoration: none;
+}
+
+.navbar a:hover
+{
+  color: black;
+}
+
+.navbar a.active
+{
+  color: lightgray;
+}
+
+.galleryrow
+{
+  display: flex;
+  justify-content: center;
+}
+
+.gallerycolumn
+{
+  width: 25%;
+  float: left;
+}
+
+.galleryrow, .galleryrow > .gallerycolumn
+{
+  padding: 20px;
+}
+
+.gallerybackground
+{
+  background-color: rgba(130, 148, 200, 255);
+  box-shadow: 5px 5px 5px rgba(2, 58, 218, 255) inset;
+  padding: 5px;
+}
+
+.projecttypeheader
+{
+  text-align: center;
+  color: white;
+}
+
+.projecttypedescription
+{
+  text-align: center;
+  color: white;
+}
+
+.gametitle
+{
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 2vw;
+  color: white;
+}
+
+.gameimage
+{
+  max-height: 100px;
+  max-width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gamedetails
+{
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 1vw;
+  color: white;
+}
+
+.gamedescription
+{
+  border-top: 2px dotted;
+  border-bottom: 2px dotted;
+  padding: 2px;
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 1vw;
+  color: white;
+}
+
+.repositorybutton
+{
+  border: none;
+  background-color: rgba(2, 58, 218, 255);
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.repositorybutton:hover
+{
+  border: none;
+  background-color: gray;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.paragraph
+{
+  text-align: center;
+  font-family: "Garamond";
+  font-size: 2vw;
+  color: white;
+  padding: 5px 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
